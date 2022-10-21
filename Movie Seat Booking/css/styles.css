@@ -1,0 +1,147 @@
+body{
+    background-image: url(/img/banner01.jpg);
+    background-size: cover;
+    font-family: 'Public Sans', sans-serif;
+    color: #fff;
+}
+
+header{
+    background-color: transparent;
+   
+}
+
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 20px;
+    justify-content: center;
+    border-bottom: 1px solid rgb(39, 174, 96);
+    
+}
+
+header ul li{
+    margin-right: 15px;
+    text-align: center;
+}
+
+
+
+.booking-container{
+    background-color: #032055;
+    height: 1000px;
+    background-size: cover;
+}
+
+.flyer-container{
+    padding-top: 20px;
+    margin-left: -1px;
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.card{
+    width: 20%;
+    margin: 20px;
+    border-radius: 7px;
+    overflow: hidden;
+    background: #032055;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+    overflow: hidden;
+}
+
+
+.card img{
+   height: 300px;
+   transition: 0.3s ease-in-out;
+}
+
+.content-card h3, p{
+    text-align: center;
+}
+
+.card img:hover{
+   transform: scale(1.1);
+   transition: 0.3s ease-in-out;
+}
+
+.booking-seats-container{
+    position: relative;
+    top:-400px;
+}
+
+.escenario{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.seats span{
+    display: flex;
+    font-size: 12.6px;
+    font-size: 80%;
+    justify-content: center;
+}
+
+.seats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.asientos:hover{
+    color: white;
+    border: 2px solid white;
+    transition: all 0.3s ease-in;
+}
+
+
+
+.asientos{
+    margin: 5px;
+    width: 2.24rem;
+    height: 2.24rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid rgba(169, 169, 169, 0.75);
+    font-weight: 800;
+    color: rgb(169, 169, 169);
+    user-select: none;
+    background-color: transparent;
+    border: 2px solid rgb(39, 174, 96);
+    -webkit-box-align: center;
+    font-size: 12.6px;
+    font-size: 80%;
+}
+
+
+.selected{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(39, 174, 96);
+}
+
+.asientos.occupied{
+    cursor: pointer;
+    color: rgb(169, 169, 169);;
+    background-color: red;
+    border: none;
+}
+
+.asientos.occupied:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+
+
